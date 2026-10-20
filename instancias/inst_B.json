@@ -1,0 +1,386 @@
+{
+  "version": "1.0",
+  "nombre": "inst_B",
+  "fuente": "Solomon R203",
+  "generacion": {
+    "semilla": 1,
+    "n": 15,
+    "p_pedido": 0.75,
+    "factor_demanda": [
+      0.8,
+      1.2
+    ],
+    "prop_ventana": 0.5,
+    "holgura_capacidad": 1.1,
+    "carga_por_dia": [
+      201,
+      206,
+      165
+    ]
+  },
+  "dias": 3,
+  "rutas": 3,
+  "capacidad": 76,
+  "velocidad": 1.0,
+  "deposito": {
+    "x": 35.0,
+    "y": 35.0,
+    "a": 0.0,
+    "b": 1000.0
+  },
+  "clientes": [
+    {
+      "id": 1,
+      "id_original": 4,
+      "x": 55.0,
+      "y": 20.0,
+      "ventana": [
+        678.0,
+        801.0
+      ]
+    },
+    {
+      "id": 2,
+      "id_original": 9,
+      "x": 55.0,
+      "y": 60.0,
+      "ventana": null
+    },
+    {
+      "id": 3,
+      "id_original": 13,
+      "x": 30.0,
+      "y": 25.0,
+      "ventana": null
+    },
+    {
+      "id": 4,
+      "id_original": 16,
+      "x": 10.0,
+      "y": 20.0,
+      "ventana": null
+    },
+    {
+      "id": 5,
+      "id_original": 18,
+      "x": 20.0,
+      "y": 40.0,
+      "ventana": [
+        0.0,
+        974.0
+      ]
+    },
+    {
+      "id": 6,
+      "id_original": 27,
+      "x": 35.0,
+      "y": 40.0,
+      "ventana": null
+    },
+    {
+      "id": 7,
+      "id_original": 33,
+      "x": 53.0,
+      "y": 52.0,
+      "ventana": [
+        45.0,
+        200.0
+      ]
+    },
+    {
+      "id": 8,
+      "id_original": 49,
+      "x": 6.0,
+      "y": 68.0,
+      "ventana": [
+        501.0,
+        540.0
+      ]
+    },
+    {
+      "id": 9,
+      "id_original": 58,
+      "x": 36.0,
+      "y": 26.0,
+      "ventana": null
+    },
+    {
+      "id": 10,
+      "id_original": 61,
+      "x": 12.0,
+      "y": 24.0,
+      "ventana": [
+        0.0,
+        964.0
+      ]
+    },
+    {
+      "id": 11,
+      "id_original": 63,
+      "x": 27.0,
+      "y": 69.0,
+      "ventana": null
+    },
+    {
+      "id": 12,
+      "id_original": 64,
+      "x": 15.0,
+      "y": 77.0,
+      "ventana": null
+    },
+    {
+      "id": 13,
+      "id_original": 73,
+      "x": 44.0,
+      "y": 17.0,
+      "ventana": [
+        0.0,
+        969.0
+      ]
+    },
+    {
+      "id": 14,
+      "id_original": 84,
+      "x": 11.0,
+      "y": 31.0,
+      "ventana": [
+        436.0,
+        511.0
+      ]
+    },
+    {
+      "id": 15,
+      "id_original": 98,
+      "x": 19.0,
+      "y": 21.0,
+      "ventana": [
+        0.0,
+        968.0
+      ]
+    }
+  ],
+  "pedidos": [
+    {
+      "cliente": 1,
+      "dia": 0,
+      "q": 22,
+      "st": 10.0
+    },
+    {
+      "cliente": 1,
+      "dia": 1,
+      "q": 15,
+      "st": 10.0
+    },
+    {
+      "cliente": 2,
+      "dia": 0,
+      "q": 15,
+      "st": 10.0
+    },
+    {
+      "cliente": 2,
+      "dia": 1,
+      "q": 14,
+      "st": 10.0
+    },
+    {
+      "cliente": 3,
+      "dia": 0,
+      "q": 22,
+      "st": 10.0
+    },
+    {
+      "cliente": 3,
+      "dia": 1,
+      "q": 23,
+      "st": 10.0
+    },
+    {
+      "cliente": 3,
+      "dia": 2,
+      "q": 21,
+      "st": 10.0
+    },
+    {
+      "cliente": 4,
+      "dia": 0,
+      "q": 17,
+      "st": 10.0
+    },
+    {
+      "cliente": 4,
+      "dia": 1,
+      "q": 15,
+      "st": 10.0
+    },
+    {
+      "cliente": 4,
+      "dia": 2,
+      "q": 22,
+      "st": 10.0
+    },
+    {
+      "cliente": 5,
+      "dia": 0,
+      "q": 14,
+      "st": 10.0
+    },
+    {
+      "cliente": 5,
+      "dia": 1,
+      "q": 14,
+      "st": 10.0
+    },
+    {
+      "cliente": 5,
+      "dia": 2,
+      "q": 10,
+      "st": 10.0
+    },
+    {
+      "cliente": 6,
+      "dia": 0,
+      "q": 19,
+      "st": 10.0
+    },
+    {
+      "cliente": 6,
+      "dia": 1,
+      "q": 16,
+      "st": 10.0
+    },
+    {
+      "cliente": 6,
+      "dia": 2,
+      "q": 18,
+      "st": 10.0
+    },
+    {
+      "cliente": 7,
+      "dia": 0,
+      "q": 13,
+      "st": 10.0
+    },
+    {
+      "cliente": 7,
+      "dia": 1,
+      "q": 13,
+      "st": 10.0
+    },
+    {
+      "cliente": 7,
+      "dia": 2,
+      "q": 11,
+      "st": 10.0
+    },
+    {
+      "cliente": 8,
+      "dia": 0,
+      "q": 34,
+      "st": 10.0
+    },
+    {
+      "cliente": 8,
+      "dia": 1,
+      "q": 29,
+      "st": 10.0
+    },
+    {
+      "cliente": 8,
+      "dia": 2,
+      "q": 26,
+      "st": 10.0
+    },
+    {
+      "cliente": 9,
+      "dia": 0,
+      "q": 17,
+      "st": 10.0
+    },
+    {
+      "cliente": 9,
+      "dia": 1,
+      "q": 18,
+      "st": 10.0
+    },
+    {
+      "cliente": 9,
+      "dia": 2,
+      "q": 18,
+      "st": 10.0
+    },
+    {
+      "cliente": 10,
+      "dia": 1,
+      "q": 13,
+      "st": 10.0
+    },
+    {
+      "cliente": 10,
+      "dia": 2,
+      "q": 11,
+      "st": 10.0
+    },
+    {
+      "cliente": 11,
+      "dia": 0,
+      "q": 10,
+      "st": 10.0
+    },
+    {
+      "cliente": 11,
+      "dia": 1,
+      "q": 10,
+      "st": 10.0
+    },
+    {
+      "cliente": 12,
+      "dia": 0,
+      "q": 10,
+      "st": 10.0
+    },
+    {
+      "cliente": 12,
+      "dia": 1,
+      "q": 9,
+      "st": 10.0
+    },
+    {
+      "cliente": 13,
+      "dia": 1,
+      "q": 11,
+      "st": 10.0
+    },
+    {
+      "cliente": 13,
+      "dia": 2,
+      "q": 9,
+      "st": 10.0
+    },
+    {
+      "cliente": 14,
+      "dia": 0,
+      "q": 8,
+      "st": 10.0
+    },
+    {
+      "cliente": 14,
+      "dia": 1,
+      "q": 6,
+      "st": 10.0
+    },
+    {
+      "cliente": 14,
+      "dia": 2,
+      "q": 8,
+      "st": 10.0
+    },
+    {
+      "cliente": 15,
+      "dia": 2,
+      "q": 11,
+      "st": 10.0
+    }
+  ]
+}
