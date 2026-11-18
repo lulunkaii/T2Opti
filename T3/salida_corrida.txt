@@ -1,0 +1,44 @@
+﻿Instancia 'inst_A': 15 clientes, 3 días, 3 rutas, 37 pedidos, 458 arcos, 8 clientes con ventana, Q = 84
+  gurobi LP...
+Set parameter Username
+Set parameter LicenseID to value 2875180
+Academic license - for non-commercial use only - expires 2027-10-15
+Set parameter LogFile to value "C:\Universidad\Optimizacion\T2Opti\T3\logs\inst_A_gurobi_LP.log"
+Set parameter LogToConsole to value 0
+    óptimo, objetivo 729.2290, 0.01 s
+  gurobi MIP...
+Set parameter LogFile to value "C:\Universidad\Optimizacion\T2Opti\T3\logs\inst_A_gurobi_MIP.log"
+Set parameter LogToConsole to value 0
+    óptimo, objetivo 1198.2122, 179.48 s
+  cplex LP...
+    óptimo, objetivo 729.2290, 0.02 s
+  cplex MIP...
+    óptimo, objetivo 1198.2122, 407.91 s
+Instancia 'inst_B': 15 clientes, 3 días, 3 rutas, 37 pedidos, 486 arcos, 8 clientes con ventana, Q = 76
+  gurobi LP...
+Set parameter LogFile to value "C:\Universidad\Optimizacion\T2Opti\T3\logs\inst_B_gurobi_LP.log"
+Set parameter LogToConsole to value 0
+    óptimo, objetivo 484.6736, 0.01 s
+  gurobi MIP...
+Set parameter LogFile to value "C:\Universidad\Optimizacion\T2Opti\T3\logs\inst_B_gurobi_MIP.log"
+Set parameter LogToConsole to value 0
+    óptimo, objetivo 830.9258, 372.71 s
+  cplex LP...
+    óptimo, objetivo 484.6736, 0.00 s
+  cplex MIP...
+    límite de tiempo, objetivo 830.9258, 600.02 s
+
+solver  instancia  tipo  estado            objetivo   cota       gap (%)  nodos   tiempo (s)  validación
+Gurobi  inst_A     LP    óptimo            729.2290   -          -        -       0.0080      -         
+Gurobi  inst_A     MIP   óptimo            1198.2122  1198.0982  0.0095   142592  179.4800    OK        
+CPLEX   inst_A     LP    óptimo            729.2290   -          -        -       0.0160      -         
+CPLEX   inst_A     MIP   óptimo            1198.2122  1198.0966  0.0096   224264  407.9070    OK        
+Gurobi  inst_B     LP    óptimo            484.6736   -          -        -       0.0110      -         
+Gurobi  inst_B     MIP   óptimo            830.9258   830.8434   0.0099   177099  372.7090    OK        
+CPLEX   inst_B     LP    óptimo            484.6736   -          -        -       0.0000      -         
+CPLEX   inst_B     MIP   límite de tiempo  830.9258   748.8234   9.8808   209130  600.0160    OK        
+
+inst_A LP: Gurobi 729.229043  CPLEX 729.229043  diferencia 1.14e-13
+inst_B LP: Gurobi 484.673579  CPLEX 484.673579  diferencia 1.71e-13
+inst_A MIP: Gurobi 1198.212235  CPLEX 1198.212235  diferencia 2.27e-13
+inst_B MIP: Gurobi 830.925806  CPLEX 830.925806  diferencia 2.27e-13
